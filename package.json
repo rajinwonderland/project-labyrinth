@@ -1,0 +1,39 @@
+{
+  "name": "project-labyrinth",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.0.0",
+    "apollo-client": "^2.0.1",
+    "apollo-link": "^1.0.0",
+    "apollo-link-http": "^1.1.0",
+    "graphql": "^0.11.7",
+    "graphql-tag": "^2.5.0",
+    "halogenium": "^2.2.3",
+    "material-ui": "^0.20.0",
+    "material-ui-rating": "^1.4.1",
+    "react": "^16.2.0",
+    "react-apollo": "^2.0.0",
+    "react-audio-player": "^0.9.0",
+    "react-content-loader": "^3.0.1",
+    "react-dom": "^16.2.0",
+    "react-reader": "^0.16.6",
+    "react-router-dom": "^4.2.2",
+    "react-speed-dial": "^0.4.7",
+    "react-stack-grid": "^0.7.1",
+    "tachyons": "^4.9.1",
+    "tachyons-components": "^1.0.0-1"
+  },
+  "devDependencies": {
+    "prettier-eslint-cli": "^4.4.0",
+    "react-scripts": "1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "prettier": "prettier-eslint --write \"src/**/*.+(js|jsx)\"",
+    "prettier-dry-run": "prettier-eslint \"src/**/*.+(js|jsx)\" -l debug"
+  }
+}
